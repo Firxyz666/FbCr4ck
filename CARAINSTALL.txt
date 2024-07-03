@@ -1,0 +1,23 @@
+DOWNLOAD TERMUX
+FDROID = https://f-droid.org/id/packages/com.termux/
+GITHUB = https://github.com/termux/termux-app/releases/tag/v0.118.1
+
+OPEN TERMUX
+KETIK
+
+#Perintah Dasar Termux#
+pkg update && pkg upgrade
+pkg install git
+pkg install git python
+pkg install python-pip
+git clone https://github.com/Firxyz666/FbCr4ck
+cd FbCr4ck
+pip install bs4
+pip install requests 
+pip install mechanize 
+pip install futures
+pip install rich 
+pip install stdiomask 
+pip install play-audio 
+termux-setup-storage 
+python Fb1.py
